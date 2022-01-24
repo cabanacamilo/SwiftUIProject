@@ -10,13 +10,27 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Welcome")
-                .font(.title)
-            Image("Surf Board")
-                .resizable()
-                .scaledToFit()
-            Text("Camilo Cabana")
+            ZStack {
+                Image("Surf Board")
+                    .resizable()
+                    .scaledToFit()
+                Text("Welcome")
+                    .font(.title)
+            }
+            Text("Order Pizza")
                 .font(.largeTitle)
+            Spacer()
+            HStack(alignment: .top, spacing: 15) {
+                Image("1_100w")
+                Text("Chicken Pizza")
+                Spacer()
+            }
+            Text("Your Order")
+            HStack(alignment: .firstTextBaseline) {
+                Text("Your order item here")
+                Spacer()
+                Text("¥0.00")
+            }
             Spacer()
         }
         .padding()
