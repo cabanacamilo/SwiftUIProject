@@ -14,6 +14,9 @@
 		2F7604CA279FEA7100A70419 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7604C9279FEA7100A70419 /* MenuRowView.swift */; };
 		2F7604CC279FEAAF00A70419 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7604CB279FEAAF00A70419 /* RatingsView.swift */; };
 		2F7604CE279FED2000A70419 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7604CD279FED2000A70419 /* PageTitleView.swift */; };
+		2F7604D1279FEF2500A70419 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7604D0279FEF2500A70419 /* HistoryView.swift */; };
+		2F7604D3279FEF3A00A70419 /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7604D2279FEF3A00A70419 /* HistoryListView.swift */; };
+		2F7604D5279FF16600A70419 /* HistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7604D4279FF16600A70419 /* HistoryRowView.swift */; };
 		2FEC8818279E8EC900E1C918 /* SwiftUIProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC8817279E8EC900E1C918 /* SwiftUIProjectApp.swift */; };
 		2FEC881A279E8EC900E1C918 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC8819279E8EC900E1C918 /* ContentView.swift */; };
 		2FEC881C279E8ECC00E1C918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEC881B279E8ECC00E1C918 /* Assets.xcassets */; };
@@ -28,6 +31,9 @@
 		2F7604C9279FEA7100A70419 /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
 		2F7604CB279FEAAF00A70419 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
 		2F7604CD279FED2000A70419 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		2F7604D0279FEF2500A70419 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		2F7604D2279FEF3A00A70419 /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
+		2F7604D4279FF16600A70419 /* HistoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowView.swift; sourceTree = "<group>"; };
 		2FEC8814279E8EC900E1C918 /* SwiftUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FEC8817279E8EC900E1C918 /* SwiftUIProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProjectApp.swift; sourceTree = "<group>"; };
 		2FEC8819279E8EC900E1C918 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +55,7 @@
 		2F7604BE279FE67200A70419 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2F7604CF279FEEEF00A70419 /* History */,
 				2F7604C8279FEA1500A70419 /* Menu */,
 				2F7604C5279FE91F00A70419 /* Order */,
 				2F7604C3279FE78800A70419 /* ContentHeaderView.swift */,
@@ -75,6 +82,16 @@
 				2F7604CB279FEAAF00A70419 /* RatingsView.swift */,
 			);
 			path = Menu;
+			sourceTree = "<group>";
+		};
+		2F7604CF279FEEEF00A70419 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				2F7604D0279FEF2500A70419 /* HistoryView.swift */,
+				2F7604D2279FEF3A00A70419 /* HistoryListView.swift */,
+				2F7604D4279FF16600A70419 /* HistoryRowView.swift */,
+			);
+			path = History;
 			sourceTree = "<group>";
 		};
 		2FEC880B279E8EC900E1C918 = {
@@ -182,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7604D5279FF16600A70419 /* HistoryRowView.swift in Sources */,
 				2F7604C7279FE97A00A70419 /* OrderRowView.swift in Sources */,
 				2F7604C4279FE78800A70419 /* ContentHeaderView.swift in Sources */,
 				2FEC881A279E8EC900E1C918 /* ContentView.swift in Sources */,
@@ -189,8 +207,10 @@
 				2FEC8818279E8EC900E1C918 /* SwiftUIProjectApp.swift in Sources */,
 				2F7604CA279FEA7100A70419 /* MenuRowView.swift in Sources */,
 				2F7604CE279FED2000A70419 /* PageTitleView.swift in Sources */,
+				2F7604D1279FEF2500A70419 /* HistoryView.swift in Sources */,
 				2F7604C0279FE6A100A70419 /* OrderListView.swift in Sources */,
 				2F7604CC279FEAAF00A70419 /* RatingsView.swift in Sources */,
+				2F7604D3279FEF3A00A70419 /* HistoryListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
