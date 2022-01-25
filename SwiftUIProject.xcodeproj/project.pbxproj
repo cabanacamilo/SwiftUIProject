@@ -17,6 +17,7 @@
 		2F7604D1279FEF2500A70419 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7604D0279FEF2500A70419 /* HistoryView.swift */; };
 		2F7604D3279FEF3A00A70419 /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7604D2279FEF3A00A70419 /* HistoryListView.swift */; };
 		2F7604D5279FF16600A70419 /* HistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7604D4279FF16600A70419 /* HistoryRowView.swift */; };
+		2F7604D7279FF5EC00A70419 /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7604D6279FF5EC00A70419 /* ListHeaderView.swift */; };
 		2FEC8818279E8EC900E1C918 /* SwiftUIProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC8817279E8EC900E1C918 /* SwiftUIProjectApp.swift */; };
 		2FEC881A279E8EC900E1C918 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEC8819279E8EC900E1C918 /* ContentView.swift */; };
 		2FEC881C279E8ECC00E1C918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEC881B279E8ECC00E1C918 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		2F7604D0279FEF2500A70419 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		2F7604D2279FEF3A00A70419 /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
 		2F7604D4279FF16600A70419 /* HistoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowView.swift; sourceTree = "<group>"; };
+		2F7604D6279FF5EC00A70419 /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
 		2FEC8814279E8EC900E1C918 /* SwiftUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FEC8817279E8EC900E1C918 /* SwiftUIProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProjectApp.swift; sourceTree = "<group>"; };
 		2FEC8819279E8EC900E1C918 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				2F7604C1279FE6B900A70419 /* MenuListView.swift */,
+				2F7604D6279FF5EC00A70419 /* ListHeaderView.swift */,
 				2F7604C9279FEA7100A70419 /* MenuRowView.swift */,
 				2F7604CB279FEAAF00A70419 /* RatingsView.swift */,
 			);
@@ -209,6 +212,7 @@
 				2F7604CE279FED2000A70419 /* PageTitleView.swift in Sources */,
 				2F7604D1279FEF2500A70419 /* HistoryView.swift in Sources */,
 				2F7604C0279FE6A100A70419 /* OrderListView.swift in Sources */,
+				2F7604D7279FF5EC00A70419 /* ListHeaderView.swift in Sources */,
 				2F7604CC279FEAAF00A70419 /* RatingsView.swift in Sources */,
 				2F7604D3279FEF3A00A70419 /* HistoryListView.swift in Sources */,
 			);
