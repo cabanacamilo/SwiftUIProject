@@ -10,13 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Welcome")
-                .font(.title)
-            Image("Surf Board")
-                .resizable()
-                .scaledToFit()
-            Text("Camilo Cabana")
-                .font(.largeTitle)
+            ContentHeaderView()
+            PageTitleView(title: "Order Pizza")
+            MenuListView()
+            OrderListView()
             Spacer()
         }
         .padding()
