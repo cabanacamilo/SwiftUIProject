@@ -11,7 +11,6 @@ struct MenuRowView: View {
     var body: some View {
         HStack(alignment: .top, spacing: 15) {
             Image("1_100w")
-                
 //                .border(Color("G4"), width: 4)
 //                .cornerRadius(10)
                 .clipShape(Capsule())
