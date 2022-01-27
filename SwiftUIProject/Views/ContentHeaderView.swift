@@ -14,8 +14,12 @@ struct ContentHeaderView: View {
                 Image("Surf Board")
                     .resizable()
                     .scaledToFit()
-                Text("Welcome")
+                    .frame(minWidth: 300, idealWidth: 500, maxWidth: 600, minHeight: 75, idealHeight: 143, maxHeight: 150, alignment: .center)
+                Text("My Pizza Company")
+                    .offset(x: -20, y: 30)
+                    .font(.custom("Avinir-Black", size: 20))
                     .font(.title)
+                    .foregroundColor(.white)
             }
         }
     }

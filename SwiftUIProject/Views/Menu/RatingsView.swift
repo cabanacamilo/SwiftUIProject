@@ -9,12 +9,11 @@ import SwiftUI
 
 struct RatingsView: View {
     var body: some View {
-        VStack {
-            Text("Chicken Pizza")
-            HStack {
-                ForEach(0 ..< 4) { item in
-                    Image("Pizza Slice")
-                }
+        HStack {
+            ForEach(0 ..< 4) { item in
+                Image(systemName: "star.circle")
+                    .font(.headline)
+                    .foregroundColor(Color("G4"))
             }
         }
     }
