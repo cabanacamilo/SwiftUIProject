@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F5D941327A2A82600554E5D /* SelectedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5D941227A2A82600554E5D /* SelectedImageView.swift */; };
 		2F7604C0279FE6A100A70419 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7604BF279FE6A100A70419 /* OrderListView.swift */; };
 		2F7604C2279FE6B900A70419 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7604C1279FE6B900A70419 /* MenuListView.swift */; };
 		2F7604C4279FE78800A70419 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7604C3279FE78800A70419 /* ContentHeaderView.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F5D941227A2A82600554E5D /* SelectedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImageView.swift; sourceTree = "<group>"; };
 		2F7604BF279FE6A100A70419 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		2F7604C1279FE6B900A70419 /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
 		2F7604C3279FE78800A70419 /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				2F7604D0279FEF2500A70419 /* HistoryView.swift */,
 				2F7604D2279FEF3A00A70419 /* HistoryListView.swift */,
 				2F7604D4279FF16600A70419 /* HistoryRowView.swift */,
+				2F5D941227A2A82600554E5D /* SelectedImageView.swift */,
 			);
 			path = History;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				2F7604CA279FEA7100A70419 /* MenuRowView.swift in Sources */,
 				2F7604CE279FED2000A70419 /* PageTitleView.swift in Sources */,
 				2F7604D1279FEF2500A70419 /* HistoryView.swift in Sources */,
+				2F5D941327A2A82600554E5D /* SelectedImageView.swift in Sources */,
 				2F7604C0279FE6A100A70419 /* OrderListView.swift in Sources */,
 				2F7604D7279FF5EC00A70419 /* ListHeaderView.swift in Sources */,
 				2F7604CC279FEAAF00A70419 /* RatingsView.swift in Sources */,

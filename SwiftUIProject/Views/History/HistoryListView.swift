@@ -12,6 +12,7 @@ struct HistoryListView: View {
         List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
             HistoryRowView()
         }
+        .listStyle(.plain)
     }
 }
 
