@@ -12,10 +12,15 @@ struct MenuListView: View {
     var body: some View {
         VStack {
             ListHeaderView(text: "Menu")
-            List(menuList) { item in
-                MenuRowView(menuItem: item)
+            NavigationView {
+                List(menuList) { item in
+                    NavigationLink(destination: MenuDetailView(menuItem: item)) {
+                        MenuRowView(menuItem: item)
+                    }
+                }
+                .listStyle(.plain)
+                .navigationTitle("Pizza Order")
             }
-            .listStyle(.plain)
         }
     }
 }
