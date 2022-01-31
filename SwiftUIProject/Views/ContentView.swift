@@ -33,7 +33,9 @@ struct ContentView_Previews: PreviewProvider {
             ContentView(orderModel: OrderModel())
                 .colorScheme(.dark)
                 .background(Color.black)
+                .environmentObject(UserPreferences())
             ContentView(orderModel: OrderModel())
+                .environmentObject(UserPreferences())
         }
         
     }
