@@ -8,15 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var orderModel: OrderModel
+    @State var isMenuDisplayed: Bool = true
     var body: some View {
         VStack {
-            ContentHeaderView()
-                .layoutPriority(2)
-            PageTitleView(title: "Order Pizza")
-            MenuListView()
-                .layoutPriority(1)
-            OrderListView()
-                .layoutPriority(1)
+//            ContentHeaderView()
+//                .layoutPriority(2)
+            Button(action: {isMenuDisplayed.toggle()}) {
+                PageTitleView(title: "Order Pizza",isDisplayingOrders: isMenuDisplayed)
+                    .padding(.bottom)
+            }
+            MenuListView(orderModel: orderModel)
+                .layoutPriority(isMenuDisplayed ? 1.0 : 0.5)
+            OrderListView(orderModel: orderModel)
+                .layoutPriority(isMenuDisplayed ? 0.5 : 1.0)
         }
         .padding()
     }
@@ -25,10 +30,12 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ContentView()
+            ContentView(orderModel: OrderModel())
                 .colorScheme(.dark)
                 .background(Color.black)
-            ContentView()
+                .environmentObject(UserPreferences())
+            ContentView(orderModel: OrderModel())
+                .environmentObject(UserPreferences())
         }
         
     }
