@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(orderModel: OrderModel())
+            RootTabBarView()
                 .environmentObject(UserPreferences())
         }
     }
