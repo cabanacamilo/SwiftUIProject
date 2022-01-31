@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F472DF227A7C3FD0077A329 /* HistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F472DF127A7C3FD0077A329 /* HistoryDetailView.swift */; };
 		2F5D941327A2A82600554E5D /* SelectedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5D941227A2A82600554E5D /* SelectedImageView.swift */; };
 		2F630A3027A3F03000ADE05A /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F630A2D27A3F03000ADE05A /* OrderModel.swift */; };
 		2F630A3127A3F03000ADE05A /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F630A2E27A3F03000ADE05A /* HistoryModel.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F472DF127A7C3FD0077A329 /* HistoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDetailView.swift; sourceTree = "<group>"; };
 		2F5D941227A2A82600554E5D /* SelectedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImageView.swift; sourceTree = "<group>"; };
 		2F630A2D27A3F03000ADE05A /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
 		2F630A2E27A3F03000ADE05A /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				2F7604D0279FEF2500A70419 /* HistoryView.swift */,
 				2F7604D2279FEF3A00A70419 /* HistoryListView.swift */,
 				2F7604D4279FF16600A70419 /* HistoryRowView.swift */,
+				2F472DF127A7C3FD0077A329 /* HistoryDetailView.swift */,
 				2F5D941227A2A82600554E5D /* SelectedImageView.swift */,
 			);
 			path = History;
@@ -231,6 +234,7 @@
 				2F7604C4279FE78800A70419 /* ContentHeaderView.swift in Sources */,
 				2FEC881A279E8EC900E1C918 /* ContentView.swift in Sources */,
 				2F630A3227A3F03000ADE05A /* MenuModel.swift in Sources */,
+				2F472DF227A7C3FD0077A329 /* HistoryDetailView.swift in Sources */,
 				2F7604C2279FE6B900A70419 /* MenuListView.swift in Sources */,
 				2FEC8818279E8EC900E1C918 /* SwiftUIProjectApp.swift in Sources */,
 				2F7604CA279FEA7100A70419 /* MenuRowView.swift in Sources */,
