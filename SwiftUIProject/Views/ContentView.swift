@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var orderModel: OrderModel
     @State var isMenuDisplayed: Bool = true
     var body: some View {
         VStack {
@@ -29,10 +30,10 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ContentView()
+            ContentView(orderModel: OrderModel())
                 .colorScheme(.dark)
                 .background(Color.black)
-            ContentView()
+            ContentView(orderModel: OrderModel())
         }
         
     }
