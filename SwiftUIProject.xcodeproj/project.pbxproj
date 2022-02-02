@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1521EB27AA91420081D3BC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1521EA27AA91420081D3BC /* MapViewController.swift */; };
+		2F1521ED27AA92430081D3BC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1521EC27AA92430081D3BC /* MapView.swift */; };
 		2F472DF227A7C3FD0077A329 /* HistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F472DF127A7C3FD0077A329 /* HistoryDetailView.swift */; };
 		2F472DF427A7CC990077A329 /* RootTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F472DF327A7CC990077A329 /* RootTabBarView.swift */; };
 		2F472DF627A93D480077A329 /* ConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F472DF527A93D480077A329 /* ConfirmView.swift */; };
@@ -33,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F1521EA27AA91420081D3BC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2F1521EC27AA92430081D3BC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		2F472DF127A7C3FD0077A329 /* HistoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDetailView.swift; sourceTree = "<group>"; };
 		2F472DF327A7CC990077A329 /* RootTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarView.swift; sourceTree = "<group>"; };
 		2F472DF527A93D480077A329 /* ConfirmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmView.swift; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 				2F7604D4279FF16600A70419 /* HistoryRowView.swift */,
 				2F472DF127A7C3FD0077A329 /* HistoryDetailView.swift */,
 				2F5D941227A2A82600554E5D /* SelectedImageView.swift */,
+				2F1521EA27AA91420081D3BC /* MapViewController.swift */,
+				2F1521EC27AA92430081D3BC /* MapView.swift */,
 			);
 			path = History;
 			sourceTree = "<group>";
@@ -243,8 +249,10 @@
 				2F472DF427A7CC990077A329 /* RootTabBarView.swift in Sources */,
 				2F472DF227A7C3FD0077A329 /* HistoryDetailView.swift in Sources */,
 				2F7604C2279FE6B900A70419 /* MenuListView.swift in Sources */,
+				2F1521ED27AA92430081D3BC /* MapView.swift in Sources */,
 				2FEC8818279E8EC900E1C918 /* SwiftUIProjectApp.swift in Sources */,
 				2F7604CA279FEA7100A70419 /* MenuRowView.swift in Sources */,
+				2F1521EB27AA91420081D3BC /* MapViewController.swift in Sources */,
 				2F630A3027A3F03000ADE05A /* OrderModel.swift in Sources */,
 				2F7604CE279FED2000A70419 /* PageTitleView.swift in Sources */,
 				2F7604D1279FEF2500A70419 /* HistoryView.swift in Sources */,
