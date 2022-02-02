@@ -29,6 +29,6 @@ struct RootTabBarView_Previews: PreviewProvider {
     static var previews: some View {
         RootTabBarView()
             .environmentObject(UserPreferences())
-.previewInterfaceOrientation(.portraitUpsideDown)
+            .previewInterfaceOrientation(.portrait)
     }
 }
